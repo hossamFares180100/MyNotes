@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/lock_open"
+        android:title="lock open"
+        android:icon="@drawable/ic_baseline_lock_open_24"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/lock_close"
+        android:title="lock close"
+        android:icon="@drawable/ic_baseline_lock_24"
+        app:showAsAction="always"/>
+
+
+</menu>

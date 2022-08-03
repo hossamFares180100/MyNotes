@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MyNotes</string>
+    <string name="navigation_drawer_open">open navigation drawer</string>
+    <string name="navigation_drawer_close">close navigation drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search_notes">search notes</string>
+    <string name="great_job">great job</string>
+    <string name="_12_12_2000">Tuesday 10:49 pm</string>
+    <string name="enter_note">enter note</string>
+    <string name="enter_password">enter password</string>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:id="@+id/update"
+        android:title="update"
+        android:icon="@drawable/ic_baseline_edit_24"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/delete"
+        android:title="delete"
+        android:icon="@drawable/ic_baseline_delete_24"
+        app:showAsAction="always"/>
+    <item android:id="@+id/archive"
+        android:title="pin to archive"
+        android:icon="@drawable/ic_baseline_archive_24"
+        app:showAsAction="never"/>
+    <item android:id="@+id/unpin_archive"
+        android:title="unpin from archive"
+        android:icon="@drawable/ic_baseline_unarchive_24"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/unfavorite"
+        android:title="un favorite"
+        app:showAsAction="never"/>
+
+
+
+</menu>

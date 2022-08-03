@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="20dp">
+
+        <com.balysv.materialripple.MaterialRippleLayout
+            android:id="@+id/facebook"
+            style="@style/RippleStyleGrey"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#3B5999"
+                android:drawableStart="@drawable/facebook"
+                android:text="Facebook"
+                android:textStyle="bold" />
+        </com.balysv.materialripple.MaterialRippleLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="20dp">
+
+        <com.balysv.materialripple.MaterialRippleLayout
+            android:id="@+id/tele"
+            style="@style/RippleStyleGrey"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Telephone"
+                android:drawableStart="@drawable/ic_phone"
+                android:background="#18AE18"
+                android:textStyle="bold" />
+        </com.balysv.materialripple.MaterialRippleLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+</LinearLayout>

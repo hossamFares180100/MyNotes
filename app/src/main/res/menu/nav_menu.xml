@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single"
+        android:id="@+id/group1">
+        <item
+            android:id="@+id/Note"
+            android:title="Notes"
+            android:icon="@drawable/pencil"/>
+        <item
+            android:id="@+id/Favorite"
+            android:title="Favorite"
+            android:icon="@drawable/ic_baseline_favorite_24"/>
+        <item
+            android:id="@+id/Archive"
+            android:title="Archive"
+            android:icon="@drawable/ic_baseline_archive_24"/>
+        <item
+            android:id="@+id/Trash"
+            android:title="Trash"
+            android:icon="@drawable/ic_baseline_delete_24"/>
+    </group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/group2">
+
+        <item
+            android:id="@+id/locked"
+            android:title="Locked"
+            android:icon="@drawable/ic_baseline_vpn_key_24"/>
+
+    </group>
+    <item android:title="support">
+        <menu>
+        <item
+            android:id="@+id/Feedback"
+            android:title="Feedback"
+            android:icon="@drawable/ic_baseline_feedback_24"/>
+        <item
+            android:id="@+id/Contact_us"
+            android:title="Contact Us"
+            android:icon="@drawable/ic_baseline_contact_phone_24"/>
+        </menu>
+    </item>
+
+
+</menu>
